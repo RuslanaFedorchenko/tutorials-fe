@@ -33,4 +33,4 @@ jobs:
         app-name: 'tutorials'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_66ebd69dd21f471f8b07d7b8e1f0a291 }}
-        package: build
+        package: .
